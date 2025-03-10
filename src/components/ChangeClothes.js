@@ -34,7 +34,7 @@ const ChangeClothes = () => {
       img.src = URL.createObjectURL(file);
       img.onload = () => {
         if (img.width < 512 || img.height < 512 || img.width > 4096 || img.height > 4096) {
-          alert("Resolução inválida! A largura mínima é  512px e a máxima é 4096px.");
+          alert("Resolução inválida! A largura mínima é  512px e  a  máxima é 4096px.");
           resolve(false);
         } else {
           resolve(true);
